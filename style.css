@@ -1,0 +1,68 @@
+*{
+    margin: 0;
+    padding: 0;
+   
+    box-sizing: border-box;
+    font-family: 'Kumbh Sans', sans-serif;
+}
+body{
+    background-color: hsl(185, 75%, 39%);
+    font-size: 18px;
+    background-image: url(images/bg-pattern-top.svg), url(images/bg-pattern-bottom.svg);
+    background-repeat:no-repeat, no-repeat ;
+    background-position: right 45vw bottom 55vh ,left 45vw top 55vh;
+}
+section{ 
+    display: flex;
+    align-items: center;
+    min-height: 100vh;
+}
+.box{
+    margin: 0 auto;
+    text-align: center;
+    background-color: white;
+    border-radius: 15px;
+    overflow: hidden;
+    max-width: 420px;
+    
+}
+.about-card {
+    margin: 1px;
+}
+.about-card img{
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  border: 2px white solid;
+  margin-top: -50px;
+}
+.about-card h2{
+    padding:10px ;
+    font-size: 18px;
+}
+.about-card span{
+    padding-left: 6px ;
+    color: hsl(228, 18%, 63%);
+}
+.about-card p{
+    font-size: 15px;
+    color: hsl(227, 17%, 61%);
+    margin-top: -5px;
+    padding-bottom: 40px;
+    border-bottom: 1px solid hsl(0, 6%, 88%);
+}
+.fotter-card{
+    display: flex;
+    padding: 30px 20px;
+    justify-content:center ;
+}
+.fotter-card div{
+    padding: 0 20px;
+}
+.fotter-card p:first-child{
+    font-weight: 700;
+}
+.fotter-card p:last-child{
+    font-size: 12px;
+    color:hsl(0, 0%, 59%) ;
+}
